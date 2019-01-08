@@ -1,6 +1,12 @@
+/*==== BACKGROUND IMAGE ====*/
+
 body{
   background: url(assets/freedom.jpg) center no-repeat;
+  background-size: cover;
 }
+
+
+/*==== FONTS ====*/
 
 h1 {
   font-family: 'Julius Sans One', sans-serif;
@@ -10,10 +16,17 @@ h2 {
   font-family: 'Crimson Text', serif;
 }
 
+
+/*==== TEXT POSITIONING AND STYLING ====*/
+
 .main-quote {
   display: table;
+  text-align: center;
+  width: 100vw;
+  height:100vh;
 }
 
 .wrapper{
   display: table-cell;
+  vertical-align: middle;
 }

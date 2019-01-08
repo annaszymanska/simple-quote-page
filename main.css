@@ -18,6 +18,10 @@ h1 {
 
 h2 {
   font-family: 'Crimson Text', serif;
+  padding-top: 2rem;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: hsla(360, 0%, 13%, 0.9);
 }
 
 
@@ -32,6 +36,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
+  border: none;
 }
 
 .wrapper{

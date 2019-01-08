@@ -3,6 +3,9 @@
 body{
   background: url(assets/freedom.jpg) center no-repeat;
   background-size: cover;
+  line-height: 1.5;
+  height: 100vh;
+  color: hsla(360, 0%, 13%, 0.9);
 }
 
 
@@ -10,10 +13,7 @@ body{
 
 h1 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem;
-  letter-spacing: 0.1rem;
-  line-height: 3.6rem;
-  color: hsla(360, 0%, 13%, 0.9);
+  font-size: 2.5rem;  
 }
 
 h2 {
@@ -21,24 +21,16 @@ h2 {
   padding-top: 2rem;
   font-style: italic;
   font-size: 1.2rem;
-  color: hsla(360, 0%, 13%, 0.9);
 }
 
 
 /*==== TEXT POSITIONING AND STYLING ====*/
 
-.main-quote {
-  display: table;
+.wrapper {
   text-align: center;
-  width: 100vw;
-  height:100vh;
-  margin-top: 100px;
+  padding-top: 4rem;
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
   border: none;
-}
-
-.wrapper{
-  display: table-cell;
 }

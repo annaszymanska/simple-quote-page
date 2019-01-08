@@ -1,3 +1,6 @@
 body{
   background: url(assets/freedom.jpg) center no-repeat;
 }
+h1 {
+  font-family: "Julius Sans One", sans-serif;
+}

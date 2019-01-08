@@ -10,6 +10,10 @@ body{
 
 h1 {
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 3.6rem;
+  color: hsla(360, 0%, 13%, 0.9);
 }
 
 h2 {
@@ -24,9 +28,12 @@ h2 {
   text-align: center;
   width: 100vw;
   height:100vh;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
 }
 
 .wrapper{
   display: table-cell;
-  vertical-align: middle;
 }
